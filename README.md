@@ -2,11 +2,12 @@
 
 1. Clone this repository:
        git clone https://github.com/kavyakapoor420/VerifyYoutubeGithubFollowing.git
+
    cd VerifyYoutubeGithubFollowing
 
-2.  Install dependencies:
+3.  Install dependencies:
      npm install
-3. start application from terminal 
+4. start application from terminal 
     node app.js or npm start or nodemon app.js
 
 
