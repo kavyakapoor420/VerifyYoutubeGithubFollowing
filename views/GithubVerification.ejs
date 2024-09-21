@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='GithubVerificationStyling.css'/>
+    <style>
+    body{
+        background-color:black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      a{
+        text-decoration: none;
+        border: 2px solid green;
+        border-radius: 5px;
+        background-color: aqua;
+        color: black;
+      }
+      img{
+        width:50px
+      } 
+      .container{
+        background-color: grey;
+        border: 2px solid red;
+        border-radius: 10px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 400px;
+        width:400px;
+      }
+    </style>
+</head>
+<body>
+      <div class="container">
+           <h1 class="heading">Your Verification Failed with Github</h1>
+           <div class="follow-message">First Follow Byte on Github</div>
+           <button id="github-btn" >
+           <img class="github-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo"/>
+          <h3 class="login-message">Follow Byte on Github</h3>
+           </button>
+           <p id="GotoLogin-para">Go To Login Page Again</p>
+        </div>
+        <script>
+            const githubBtn=document.getElementById('github-btn');
+            githubBtn.addEventListener('click',()=>{
+                window.location.href='https://github.com/bytemait'
+            })
+            const  gotoLoginPara=document.getElementById('GotoLogin-para');
+            gotoLoginPara.addEventListener('click',()=>{
+                window.location.href='/'
+            })
+
+        </script>
+</body>
+</html>

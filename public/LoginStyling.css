@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: green
+}
+
+.container {
+    background-color:grey;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.login-message {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: blue;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+button img {
+    margin-right: 10px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+
+.google-btn {
+    background-color: #4285f4;
+    color: white;
+}
+
+.github-btn {
+    background-color: #333;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.login-in-message {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 15px;
+    color:black;
+    font-weight: bolder;
+}

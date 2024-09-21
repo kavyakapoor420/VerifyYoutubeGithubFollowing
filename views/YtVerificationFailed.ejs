@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="YtVerificationFailed.css"/>
+    <style>
+      body{
+            background-color:black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          a{
+            text-decoration: none;
+            border: 2px solid green;
+            border-radius: 5px;
+            background-color: aqua;
+            color: black;
+          }
+          img{
+            width:50px
+          } 
+          .container{
+            background-color: grey;
+            border: 2px solid red;
+            border-radius: 10px;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 400px;
+            width:400px;
+          }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Your Google Verification Failed</h1>
+        <div class="follow-message">First Subscribe Byte on YouTube</div>
+        <button id="youtube-btn" aria-label="Login with Google">
+            <img class="youtube-logo" src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube logo"/>
+            <a class="login-message" href="/" style="text-decoration: none; color: inherit;">Login With Google</a>
+        </button>
+        <p id="GotoLogin-para">
+            <a href="https://www.youtube.com/@BYTE-mait">Subscribe to Byte</a>
+        </p>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const youtubeBtn = document.querySelector("#youtube-btn");
+            youtubeBtn.addEventListener('click', () => {
+                window.location.href = 'https://www.youtube.com/@BYTE-mait';
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+<!-- const yotubeBtn=document.getElementById('youtube-btn');
+yotubeBtn.addEventListener('click',()=>{
+    window.location.href='https://www.youtube.com/@BYTE-mait'
+}) -->

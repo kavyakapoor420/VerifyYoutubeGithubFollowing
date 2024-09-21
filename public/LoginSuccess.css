@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:greenyellow;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    max-width: 600px;
+    padding: 20px;
+    background-color:grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.heading {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+

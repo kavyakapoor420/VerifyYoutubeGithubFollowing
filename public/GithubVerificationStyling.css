@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.heading {
+    font-size: 24px;
+    color:black;
+    margin-bottom: 20px;
+}
+
+.follow-message {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#github-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #24292e; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#github-btn img {
+    width: 20px; 
+    height: auto;
+    margin-left: 10px;
+}
+
+#GotoLogin-para {
+    color: #007bff; 
+    cursor: pointer;
+    text-decoration: underline;
+}

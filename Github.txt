@@ -1,0 +1,15 @@
+git init
+git add .  or git add <file_name>
+
+Commit your changes
+Once your files are added, commit them with a message:
+git commit -m "Your commit message"
+
+git remote add origin link of repo like
+https://github.com/your-username/your-repository.git
+
+git branch main
+git checkout main
+
+git  push -u origin main
+git push -u origin main

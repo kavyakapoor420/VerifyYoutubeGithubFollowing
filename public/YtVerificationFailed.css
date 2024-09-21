@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+h1 {
+    margin-bottom: 10px;
+}
+.follow-message {
+    margin-bottom: 20px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.login-message {
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: green;
+}
+a:hover {
+    background-color: green;
+    color: black;
+}
+img {
+    width: 50px;
+}
+
+/* 
+body {
+    font-family: Arial, sans-serif;
+    background-color:linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+    margin: 0;
+    padding: 20px;
+}
+
+ .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    border:2px solid red;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.follow-message {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#yotube-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0000; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.yotube-logo {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+#GotoLogin-para {
+    color: #007bff; 
+    cursor: pointer;
+    text-decoration: underline;
+}  */
