@@ -34,7 +34,8 @@ app.use(express.static(path.join(__dirname, '../public')));
 passport.use(new GoogleStrategy({
     clientID:  process.env.GOOGLE_CLIENT_ID,
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    callbackURL: process.env.GOOGLE_CALLBACK_URL,
+    // callbackURL: process.env.GOOGLE_CALLBACK_URL,
+    callbackURL:"https://kavyakapoor123.onrender.com/auth/google/callback",
     scope: ['https://www.googleapis.com/auth/youtube.readonly']
 }, (accessToken, refreshToken, profile, done) => {
     profile.accessToken = accessToken;
@@ -45,7 +46,8 @@ passport.use(new GoogleStrategy({
 passport.use(new GithubStrategy({
     clientID: process.env.GITHUB_CLIENT_ID,
     clientSecret:  process.env.GITHUB_CLIENT_SECRET,
-    callbackURL: process.env.CALLBACK_URL_GITHUB,
+    // callbackURL: process.env.CALLBACK_URL_GITHUB,
+    callbackURL:"https://kavyakapoor123.onrender.com/auth/github/callback"
     },
     (accessToken, refreshToken, profile, done) => {
         profile.accessToken = accessToken;
